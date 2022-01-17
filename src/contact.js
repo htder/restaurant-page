@@ -3,7 +3,7 @@ export function createContactPage() {
   sectionContainer.innerHTML = `      
     <div class="container px-4 py-5" id="featured-3">
     <div class="row g-4 py-1">
-      <div class="container col-xxl-8 px-4 py-5">
+      <div class="container col-xxl-8 px-4 pt-1 pb-5">
         <div class="row flex-lg-row align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img
@@ -18,9 +18,8 @@ export function createContactPage() {
           <div class="col-lg-6">
             <h2 class="display-5 fw-bold lh-1 mb-3">Reception</h2>
             <p class="lead">Call to arrange a booking.</p>
-            <span class="lead"> 01234-123-123 </span>
-            <br />
-            <span class="lead"> email@email.com </span>
+            <p class="lead"> 01234-123-123 
+            <br /> email@email.com </p>
           </div>
         </div>
       </div>
@@ -39,9 +38,9 @@ export function createContactPage() {
           <div class="col-lg-6">
             <h2 class="display-5 fw-bold lh-1 mb-3">Head Chef</h2>
             <p class="lead">Call to talk about food.</p>
-            <span class="lead"> 98765-987-987 </span>
+            <p class="lead"> 98765-987-987
             <br />
-            <span class="lead"> chef@chef.com </span>
+            chef@chef.com </p>
           </div>
         </div>
       </div>

@@ -3,8 +3,8 @@ export function createMenuPage() {
   sectionContainer.innerHTML = ` 
     <div class="container px-4 py-5" id="featured-3">
     <div class="row g-4 py-1">
-      <div class="container col-xxl-8 px-4 py-1">
-        <div class="row flex-lg-row align-items-center g-5 py-1">
+      <div class="container col-xxl-8 px-4 pt-1 pb-5">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img
               src="../images/pexels-victor-jung-983587.jpg"
